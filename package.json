@@ -1,0 +1,16 @@
+{
+  "name": "microService",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:apiGate" : "node api-gateway/src/app.ts",
+    "start:cron" : "node cron/src/cron.ts",
+    "start:sA" : "node  service-a/src/service.ts",
+    "start:sB" : "node  service-b/src/service.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
