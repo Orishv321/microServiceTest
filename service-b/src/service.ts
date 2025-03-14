@@ -2,7 +2,7 @@ const { Client } = require('pg');
 
 const dbClient = new Client({
   user: "user",
-  host: "host.docker.internal",
+  host: "localhost",
   database: "mydb",
   password: "pass",
   port: 5432,
